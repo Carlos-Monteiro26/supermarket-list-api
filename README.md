@@ -4,7 +4,7 @@ API in Node.js using Express and Mongoose to connect a MongoDB Database.
 The main objective is to make life easier for application users who go to the supermarket and forget the items they went to buy.
 So this API aims to organize this shopping list.
 
-## Technologies used
+### Technologies used
 
 - Node.js
 - Express
@@ -12,7 +12,7 @@ So this API aims to organize this shopping list.
 - MongoDB
 - Nodemon
 
-## Required Technologies
+### Required Technologies
 
 - Node.js installed (https://nodejs.org)
 - MongoDB instance running:
@@ -22,7 +22,7 @@ So this API aims to organize this shopping list.
 docker run --name supermarket-list -p 27017:27017 -d mongo
 ```
 
-## Steps to run the project
+### Steps to run the project
 
 1. Clone the repo:
 
@@ -47,3 +47,10 @@ npm install
 ```
 npm run start:dev
 ```
+
+### Available endpoints
+
+[GET]/list-items
+[POST]/list-items
+[DELETE]/list-items/:id
+[PUT]/list-items/:id
